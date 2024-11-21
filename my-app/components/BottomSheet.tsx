@@ -36,11 +36,15 @@ export const DownloadPicture = ({onClose}:{
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        backgroundColor:"black",
+
     },
     contentContainer: {
         flex: 1,
         padding: 36,
         alignItems: 'center',
+        backgroundColor:"transperent",
+        
     },
 });
 
