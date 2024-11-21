@@ -14,6 +14,7 @@ export default function Layout() {
                     headerBackTitle: "Go-back",
                 }}
             />
+            
             <Slot />
         </Stack>
     );
